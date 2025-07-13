@@ -13,14 +13,14 @@ denomination-app/
 
 ---
 
-## ⚙️ Backend (Spring Boot)
+## Backend (Spring Boot)
 
-### 📌 Features
+### Features
 
 - Exposes a REST API to calculate currency denomination
 - Accepts a Euro amount and returns a breakdown of notes/coins
 
-### 📦 Tech Stack
+### Tech Stack
 
 - Java 11+
 - Spring Boot
