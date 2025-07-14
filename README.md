@@ -8,37 +8,37 @@ This app consists of a **Spring Boot backend** that performs the denomination lo
 
 ## Project Structure
 
-denomination/
-├── backend/ # Spring Boot backend
-│ ├── pom.xml
-│ └── src/
-│ └── main/
-│ ├── java/com/dedalus/denomination/
-│ │ ├── controller/
-│ │ │ └── DenominationController.java
-│ │ ├── model/
-│ │ │ ├── DenominationRequest.java
-│ │ │ └── DenominationResponse.java
-│ │ ├── service/
-│ │ │ └── DenominationService.java
-│ │ └── DenominationApplication.java
-│ └── resources/
-│ └── application.properties
-├── frontend/ # Angular frontend
-│ ├── angular.json
-│ ├── package.json
-│ └── src/
-│ ├── app/
-│ │ ├── denomination/
-│ │ │ ├── denomination.component.ts
-│ │ │ ├── denomination.component.html
-│ │ │ └── denomination.component.css
-│ │ ├── services/
-│ │ │ └── denomination.service.ts
-│ │ ├── app.module.ts
-│ │ └── app.component.ts / .html
-│ └── index.html
-└── README.md
+denomination/  
+├── backend/ # Spring Boot backend  
+│ ├── pom.xml  
+│ └── src/  
+│ └── main/  
+│ ├── java/com/dedalus/denomination/  
+│ │ ├── controller/  
+│ │ │ └── DenominationController.java  
+│ │ ├── model/  
+│ │ │ ├── DenominationRequest.java  
+│ │ │ └── DenominationResponse.java  
+│ │ ├── service/  
+│ │ │ └── DenominationService.java  
+│ │ └── DenominationApplication.java  
+│ └── resources/  
+│ └── application.properties  
+├── frontend/ # Angular frontend  
+│ ├── angular.json  
+│ ├── package.json  
+│ └── src/  
+│ ├── app/  
+│ │ ├── denomination/  
+│ │ │ ├── denomination.component.ts  
+│ │ │ ├── denomination.component.html  
+│ │ │ └── denomination.component.css  
+│ │ ├── services/  
+│ │ │ └── denomination.service.ts  
+│ │ ├── app.module.ts  
+│ │ └── app.component.ts / .html  
+│ └── index.html  
+└── README.md  
 
 ---
 
