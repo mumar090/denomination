@@ -1,6 +1,8 @@
 # Denomination Calculator (Spring Boot + Angular)
 
-A full-stack web application that calculates the breakdown of a given Euro amount into denominations (e.g., €100, €50, €20, etc.).
+A full-stack web application that calculates the breakdown of a given Euro amount into denominations (e.g., €100, €50, €20, €2, €0.50, etc.).
+
+This app consists of a **Spring Boot backend** that performs the denomination logic and an **Angular frontend** that provides a user-friendly UI to interact with the API.
 
 ---
 
@@ -44,9 +46,10 @@ denomination/
 
 ### Features
 
-- Exposes a REST API to calculate Euro denomination
-- Accepts decimal amounts (e.g., `234.34`) and returns optimal breakdown into notes and coins
-- Clean separation of concerns using Controller-Service-Model structure
+- Exposes a REST API to calculate denomination breakdown
+- Accepts decimal Euro amounts (e.g., `234.34`)
+- Returns optimal breakdown using standard Euro notes and coins
+- Clean architecture: Controller → Service → Model
 
 ### Tech Stack
 
@@ -75,9 +78,9 @@ mvn test
 
 ### Features
 
-- Intuitive form to input an amount in Euros
-- Displays the breakdown into denominations in a structured format
-- Communicates with the backend via REST API
+- Simple UI to input Euro amounts
+- Displays denomination breakdown in real time
+- Integrates seamlessly with backend REST API
 
 ### Run Backend
 
