@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Euro Denomination Calculator</h2>
+
+  <input type="number" [(ngModel)]="amount" placeholder="Enter amount in euros" />
+  <button (click)="submit()">Calculate</button>
+
+  <div *ngIf="error" class="error">{{ error }}</div>
+
+  <div *ngIf="result">
+    <h3>Original Amount: €{{ result.originalAmount }}</h3>
+    <h4>Breakdown:</h4>
+    <ul>
+      <li *ngFor="let key of result.breakdown | keyvalue">
+        {{ key.key }}: {{ key.value }}
+      </li>
+    </ul>
+  </div>
+</div>

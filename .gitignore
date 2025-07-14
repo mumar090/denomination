@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+
+# Angular build output
+dist/
+out-tsc/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Maven / Java
+target/
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db

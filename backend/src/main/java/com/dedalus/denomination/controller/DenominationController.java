@@ -7,7 +7,9 @@ import com.dedalus.denomination.model.DenominationResponse;
 import com.dedalus.denomination.service.DenominationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/denomination")
 public class DenominationController {
